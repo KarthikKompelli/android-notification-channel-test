@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                         .setSmallIcon(R.drawable.notification_icon)
                         .setContentTitle("Test")
                         .setContentText("Text")
+                        .setSound(RingtoneManager
+                                .getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
                         .setDefaults(Notification.DEFAULT_ALL)
                         .setAutoCancel(true);
 
